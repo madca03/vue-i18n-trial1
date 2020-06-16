@@ -6,7 +6,7 @@
   npm install --save-dev vue-loader @kazupon/vue-i18n-loader
   ```
   
-2. To add support for *<i18n>* tag inside single file components, we need to modify some webpack configuration. To do this, create a file named *vue.config.js* in the root of your directory and add the code below.
+2. To add support for **\<i18n\>** tag inside single file components, we need to modify some webpack configuration. To do this, create a file named **vue.config.js** in the root of your directory and add the code below.
   ```
   module.exports = {
     chainWebpack: config => {
